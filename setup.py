@@ -14,7 +14,7 @@ setup(
     description='Adience Face alignment library',
     install_requires=[                      
                       'numpy',
-                      'scipy',
+                      'scipy==0.16',
                       'shapely'
                       ]
 )
